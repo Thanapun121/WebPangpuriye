@@ -1,0 +1,506 @@
+[2024-05-13 16:33:33] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-05-13 16:33:33] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2024-05-13 16:33:33] [class-ss-archive-creation-job.php:98] Pushing first task to queue: setup
+[2024-05-13 16:33:34] [class-ss-archive-creation-job.php:132] Current task: setup
+[2024-05-13 16:33:34] [class-ss-archive-creation-job.php:149] Performing task: setup
+[2024-05-13 16:33:34] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-05-13 16:33:34] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\
+[2024-05-13 16:33:34] [class-ss-setup-task.php:79] Adding origin URL to queue: http://localhost/WebPangpuriye/
+[2024-05-13 16:33:34] [class-ss-setup-task.php:137] File C:\xampp\htdocs\WebPangpuriye\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/xampp/htdocs/WebPangpuriye/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-05-13 16:33:34] [class-ss-archive-creation-job.php:171] We've found our next task: fetch_urls
+[2024-05-13 16:33:34] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-05-13 16:33:34] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-05-13 16:33:34] [class-ss-fetch-urls-task.php:55] Total pages: 2; Pages remaining: 2
+[2024-05-13 16:33:34] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/
+[2024-05-13 16:33:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-05-13 16:33:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240de5e0d7-B1pLpu.tmp
+[2024-05-13 16:33:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/?simply_static_page=1
+[2024-05-13 16:33:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/?simply_static_page=1
+[2024-05-13 16:33:34] [class-ss-url-fetcher.php:103] Filesize: 84994 bytes
+[2024-05-13 16:33:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-13 16:33:34] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-05-13 16:33:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240de5e0d7-B1pLpu.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/index.html
+[2024-05-13 16:33:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:35] [class-ss-fetch-urls-task.php:144] Adding 20 URLs to the queue
+[2024-05-13 16:33:35] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:35] [class-ss-fetch-urls-task.php:58] URL: C:/xampp/htdocs/WebPangpuriye/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-05-13 16:33:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-05-13 16:33:35] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:35] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-05-13 16:33:35] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2024-05-13 16:33:35] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-05-13 16:33:35] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-05-13 16:33:35] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-05-13 16:33:35] [class-ss-fetch-urls-task.php:55] Total pages: 22; Pages remaining: 20
+[2024-05-13 16:33:35] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye
+[2024-05-13 16:33:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 22
+[2024-05-13 16:33:35] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240df7513c-u8Z3uN.tmp
+[2024-05-13 16:33:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye?simply_static_page=3
+[2024-05-13 16:33:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye?simply_static_page=3
+[2024-05-13 16:33:35] [class-ss-url-fetcher.php:103] Filesize: 359 bytes
+[2024-05-13 16:33:35] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-05-13 16:33:35] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-05-13 16:33:35] [class-ss-fetch-urls-task.php:190] redirect_url: http://localhost/WebPangpuriye/
+[2024-05-13 16:33:35] [class-ss-fetch-urls-task.php:199] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-05-13 16:33:35] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/sample-page/
+[2024-05-13 16:33:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 22
+[2024-05-13 16:33:35] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240df7a257-SSaDY3.tmp
+[2024-05-13 16:33:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/sample-page/?simply_static_page=4
+[2024-05-13 16:33:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/sample-page/?simply_static_page=4
+[2024-05-13 16:33:35] [class-ss-url-fetcher.php:103] Filesize: 60151 bytes
+[2024-05-13 16:33:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-13 16:33:35] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/index.html
+[2024-05-13 16:33:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240df7a257-SSaDY3.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/sample-page/index.html
+[2024-05-13 16:33:35] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:35] [class-ss-fetch-urls-task.php:144] Adding 18 URLs to the queue
+[2024-05-13 16:33:35] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:36] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/2024/05/13/hello-world/
+[2024-05-13 16:33:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 22
+[2024-05-13 16:33:36] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e05cf6c-i1u20u.tmp
+[2024-05-13 16:33:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/2024/05/13/hello-world/?simply_static_page=5
+[2024-05-13 16:33:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/2024/05/13/hello-world/?simply_static_page=5
+[2024-05-13 16:33:36] [class-ss-url-fetcher.php:103] Filesize: 77440 bytes
+[2024-05-13 16:33:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-13 16:33:36] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/13/hello-world/index.html
+[2024-05-13 16:33:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e05cf6c-i1u20u.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/2024/05/13/hello-world/index.html
+[2024-05-13 16:33:36] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:36] [class-ss-fetch-urls-task.php:144] Adding 22 URLs to the queue
+[2024-05-13 16:33:36] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:37] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/author/pangpuriye1/
+[2024-05-13 16:33:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 22
+[2024-05-13 16:33:37] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e141a19-GiGB0R.tmp
+[2024-05-13 16:33:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/author/pangpuriye1/?simply_static_page=6
+[2024-05-13 16:33:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/author/pangpuriye1/?simply_static_page=6
+[2024-05-13 16:33:37] [class-ss-url-fetcher.php:103] Filesize: 64271 bytes
+[2024-05-13 16:33:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-13 16:33:37] [class-ss-url-fetcher.php:233] New filename for static page: /author/pangpuriye1/index.html
+[2024-05-13 16:33:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e141a19-GiGB0R.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/author/pangpuriye1/index.html
+[2024-05-13 16:33:37] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:37] [class-ss-fetch-urls-task.php:144] Adding 18 URLs to the queue
+[2024-05-13 16:33:37] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:38] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/category/uncategorized/
+[2024-05-13 16:33:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 22
+[2024-05-13 16:33:38] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e225de0-bFTOjJ.tmp
+[2024-05-13 16:33:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/category/uncategorized/?simply_static_page=7
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/category/uncategorized/?simply_static_page=7
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:103] Filesize: 57101 bytes
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e280771-HO9Aqg.tmp
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/category/uncategorized/
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:103] Filesize: 57101 bytes
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-05-13 16:33:38] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-05-13 16:33:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 22
+[2024-05-13 16:33:38] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e2d3f25-il6BWn.tmp
+[2024-05-13 16:33:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=8
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=8
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e2d3f25-il6BWn.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-05-13 16:33:38] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:38] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-05-13 16:33:38] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:38] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-05-13 16:33:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 22
+[2024-05-13 16:33:38] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e2dad45-eXPNDl.tmp
+[2024-05-13 16:33:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=9
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=9
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:103] Filesize: 66482 bytes
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e2dad45-eXPNDl.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-05-13 16:33:38] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:38] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-05-13 16:33:38] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:38] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-05-13 16:33:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 22
+[2024-05-13 16:33:38] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e2e0be8-kYzti6.tmp
+[2024-05-13 16:33:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=10
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=10
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:103] Filesize: 126244 bytes
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e2e0be8-kYzti6.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-05-13 16:33:38] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:38] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-05-13 16:33:38] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:38] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/feed/
+[2024-05-13 16:33:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 22
+[2024-05-13 16:33:38] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e2e769f-WD2f3O.tmp
+[2024-05-13 16:33:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/feed/?simply_static_page=11
+[2024-05-13 16:33:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/feed/?simply_static_page=11
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:103] Filesize: 1725 bytes
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e2e769f-WD2f3O.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/feed/index.xml
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:144] Adding 5 URLs to the queue
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/comments/feed/
+[2024-05-13 16:33:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 22
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e336491-qups7i.tmp
+[2024-05-13 16:33:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/comments/feed/?simply_static_page=12
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/comments/feed/?simply_static_page=12
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:103] Filesize: 1686 bytes
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e336491-qups7i.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/comments/feed/index.xml
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:144] Adding 4 URLs to the queue
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/wp-includes/blocks/navigation/style.min.css
+[2024-05-13 16:33:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 22
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e379042-3NuZg8.tmp
+[2024-05-13 16:33:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/wp-includes/blocks/navigation/style.min.css?simply_static_page=13
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/wp-includes/blocks/navigation/style.min.css?simply_static_page=13
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:103] Filesize: 16484 bytes
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e379042-3NuZg8.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/wp-includes/blocks/navigation/style.min.css
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/wp-includes/blocks/image/style.min.css
+[2024-05-13 16:33:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 22
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e382418-5QkzWm.tmp
+[2024-05-13 16:33:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/wp-includes/blocks/image/style.min.css?simply_static_page=14
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/wp-includes/blocks/image/style.min.css?simply_static_page=14
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:103] Filesize: 7049 bytes
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e382418-5QkzWm.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/wp-includes/blocks/image/style.min.css
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/wp-json/
+[2024-05-13 16:33:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 22
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e387d7c-AUClbw.tmp
+[2024-05-13 16:33:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/wp-json/?simply_static_page=15
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/wp-json/?simply_static_page=15
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:103] Filesize: 184705 bytes
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/index.html
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e387d7c-AUClbw.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/wp-json/index.html
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/xmlrpc.php
+[2024-05-13 16:33:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 22
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/WebPangpuriye/xmlrpc.php
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/wp-includes/js/dist/interactivity.min.js
+[2024-05-13 16:33:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 22
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e3d0d71-utxqyd.tmp
+[2024-05-13 16:33:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/wp-includes/js/dist/interactivity.min.js?simply_static_page=17
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/wp-includes/js/dist/interactivity.min.js?simply_static_page=17
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:103] Filesize: 35085 bytes
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e3d0d71-utxqyd.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/wp-includes/js/dist/interactivity.min.js
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/wp-includes/blocks/navigation/view.min.js
+[2024-05-13 16:33:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 22
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e3e2248-ph0bk9.tmp
+[2024-05-13 16:33:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/wp-includes/blocks/navigation/view.min.js?simply_static_page=18
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/wp-includes/blocks/navigation/view.min.js?simply_static_page=18
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e3e2248-ph0bk9.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/wp-includes/blocks/navigation/view.min.js
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-05-13 16:33:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 22
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e3ea959-ihvbgM.tmp
+[2024-05-13 16:33:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=19
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=19
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-05-13 16:33:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e3ea959-ihvbgM.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-05-13 16:33:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 22
+[2024-05-13 16:33:39] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e3f41ec-UfCbuN.tmp
+[2024-05-13 16:33:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=20
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=20
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e3f41ec-UfCbuN.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-05-13 16:33:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 22
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e407c0b-YXZbEv.tmp
+[2024-05-13 16:33:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=21
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=21
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e407c0b-YXZbEv.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-05-13 16:33:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 22
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e40e3aa-QdUszA.tmp
+[2024-05-13 16:33:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=22
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=22
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e40e3aa-QdUszA.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:40] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 22 pages/files
+[2024-05-13 16:33:40] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-05-13 16:33:40] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-05-13 16:33:40] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:55] Total pages: 32; Pages remaining: 10
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/wp-admin/
+[2024-05-13 16:33:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 32
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e41622f-scM2Sn.tmp
+[2024-05-13 16:33:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/wp-admin/?simply_static_page=23
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/wp-admin/?simply_static_page=23
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:190] redirect_url: http://localhost/WebPangpuriye/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2FWebPangpuriye%2Fwp-admin%2F%3Fsimply_static_page%3D23&reauth=1
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:217] Redirect URL is on the same domain; adding the URL to the queue
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:229] Creating a redirect page
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/sample-page/feed/
+[2024-05-13 16:33:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 32
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e45a20a-QBpcot.tmp
+[2024-05-13 16:33:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/sample-page/feed/?simply_static_page=24
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/sample-page/feed/?simply_static_page=24
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:103] Filesize: 753 bytes
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/feed/index.xml
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e45a20a-QBpcot.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/sample-page/feed/index.xml
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:144] Adding 2 URLs to the queue
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/wp-json/wp/v2/pages/2
+[2024-05-13 16:33:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 32
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e49b81d-oGqAl0.tmp
+[2024-05-13 16:33:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/wp-json/wp/v2/pages/2?simply_static_page=25
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/wp-json/wp/v2/pages/2?simply_static_page=25
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:103] Filesize: 2882 bytes
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/2\index.html
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e49b81d-oGqAl0.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/wp-json/wp/v2/pages/2\index.html
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/wp-json/oembed/1.0/embed
+[2024-05-13 16:33:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 32
+[2024-05-13 16:33:40] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e4dbe08-SsjLKq.tmp
+[2024-05-13 16:33:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/wp-json/oembed/1.0/embed?simply_static_page=26
+[2024-05-13 16:33:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/wp-json/oembed/1.0/embed?simply_static_page=26
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:103] Filesize: 115 bytes
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:119] http_status_code: 400 | content_type: application/json; charset=UTF-8
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/2024/05/13/hello-world/feed/
+[2024-05-13 16:33:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 32
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e526093-qik4RY.tmp
+[2024-05-13 16:33:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/2024/05/13/hello-world/feed/?simply_static_page=27
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/2024/05/13/hello-world/feed/?simply_static_page=27
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:103] Filesize: 1703 bytes
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/13/hello-world/feed/index.xml
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e526093-qik4RY.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/2024/05/13/hello-world/feed/index.xml
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:144] Adding 3 URLs to the queue
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/wp-includes/css/dist/block-library/common.min.css
+[2024-05-13 16:33:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 32
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e56c0d0-cUS0Tb.tmp
+[2024-05-13 16:33:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/wp-includes/css/dist/block-library/common.min.css?simply_static_page=28
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/wp-includes/css/dist/block-library/common.min.css?simply_static_page=28
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:103] Filesize: 3503 bytes
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e56c0d0-cUS0Tb.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/wp-includes/css/dist/block-library/common.min.css
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/wp-json/wp/v2/posts/1
+[2024-05-13 16:33:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 32
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e571dd5-h6hi4F.tmp
+[2024-05-13 16:33:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/wp-json/wp/v2/posts/1?simply_static_page=29
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/wp-json/wp/v2/posts/1?simply_static_page=29
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:103] Filesize: 1825 bytes
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/posts/1\index.html
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e571dd5-h6hi4F.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/wp-json/wp/v2/posts/1\index.html
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/wp-includes/js/comment-reply.min.js
+[2024-05-13 16:33:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 32
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e5b7758-n2jKxy.tmp
+[2024-05-13 16:33:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/wp-includes/js/comment-reply.min.js?simply_static_page=30
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/wp-includes/js/comment-reply.min.js?simply_static_page=30
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e5b7758-n2jKxy.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/wp-includes/js/comment-reply.min.js
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/author/pangpuriye1/feed/
+[2024-05-13 16:33:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 32
+[2024-05-13 16:33:41] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e5c15d9-jLcWJj.tmp
+[2024-05-13 16:33:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/author/pangpuriye1/feed/?simply_static_page=31
+[2024-05-13 16:33:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/author/pangpuriye1/feed/?simply_static_page=31
+[2024-05-13 16:33:42] [class-ss-url-fetcher.php:103] Filesize: 1764 bytes
+[2024-05-13 16:33:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-13 16:33:42] [class-ss-url-fetcher.php:233] New filename for static page: /author/pangpuriye1/feed/index.xml
+[2024-05-13 16:33:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e5c15d9-jLcWJj.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/author/pangpuriye1/feed/index.xml
+[2024-05-13 16:33:42] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:42] [class-ss-fetch-urls-task.php:144] Adding 5 URLs to the queue
+[2024-05-13 16:33:42] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:42] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/wp-json/wp/v2/users/1
+[2024-05-13 16:33:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 32
+[2024-05-13 16:33:42] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-05-13 16:33:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\thana\AppData\Local\Temp/664240e60e22e-ChnBzD.tmp
+[2024-05-13 16:33:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/WebPangpuriye/wp-json/wp/v2/users/1?simply_static_page=32
+[2024-05-13 16:33:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/WebPangpuriye/wp-json/wp/v2/users/1?simply_static_page=32
+[2024-05-13 16:33:42] [class-ss-url-fetcher.php:103] Filesize: 638 bytes
+[2024-05-13 16:33:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-05-13 16:33:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/users/1\index.html
+[2024-05-13 16:33:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\thana\AppData\Local\Temp/664240e60e22e-ChnBzD.tmp to C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013/wp-json/wp/v2/users/1\index.html
+[2024-05-13 16:33:42] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-05-13 16:33:42] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-05-13 16:33:42] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-05-13 16:33:42] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 22 of 32 pages/files
+[2024-05-13 16:33:42] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-05-13 16:33:42] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-05-13 16:33:42] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-05-13 16:33:42] [class-ss-fetch-urls-task.php:55] Total pages: 33; Pages remaining: 1
+[2024-05-13 16:33:42] [class-ss-fetch-urls-task.php:58] URL: http://localhost/WebPangpuriye/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2FWebPangpuriye%2Fwp-admin%2F%3Fsimply_static_page%3D23&reauth=1
+[2024-05-13 16:33:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 33
+[2024-05-13 16:33:42] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/WebPangpuriye/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2FWebPangpuriye%2Fwp-admin%2F%3Fsimply_static_page%3D23&reauth=1
+[2024-05-13 16:33:42] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-05-13 16:33:42] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 32 of 33 pages/files
+[2024-05-13 16:33:42] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-05-13 16:33:42] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-05-13 16:33:42] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-05-13 16:33:42] [class-ss-fetch-urls-task.php:55] Total pages: 33; Pages remaining: 0
+[2024-05-13 16:33:42] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 33 of 33 pages/files
+[2024-05-13 16:33:42] [class-ss-archive-creation-job.php:171] We've found our next task: transfer_files_locally
+[2024-05-13 16:33:42] [class-ss-archive-creation-job.php:132] Current task: transfer_files_locally
+[2024-05-13 16:33:42] [class-ss-archive-creation-job.php:149] Performing task: transfer_files_locally
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:77] Total pages: 27; Pages remaining: 27
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:96] Cannot copy C:/xampp/htdocs/WebPangpuriye/wp-content/uploads/simply-static/temp-files/simply-static-1-1715618013/wp-json/wp/v2/pages/2/index.html to C:/xampp/htdocs/WebPangpuriye/wp-json/wp/v2/pages/2/index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:96] Cannot copy C:/xampp/htdocs/WebPangpuriye/wp-content/uploads/simply-static/temp-files/simply-static-1-1715618013/wp-json/wp/v2/posts/1/index.html to C:/xampp/htdocs/WebPangpuriye/wp-json/wp/v2/posts/1/index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:96] Cannot copy C:/xampp/htdocs/WebPangpuriye/wp-content/uploads/simply-static/temp-files/simply-static-1-1715618013/wp-json/wp/v2/users/1/index.html to C:/xampp/htdocs/WebPangpuriye/wp-json/wp/v2/users/1/index.html
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\WebPangpuriye/wp-content/uploads\simply-static\temp-files/simply-static-1-1715618013\404\index.html
+[2024-05-13 16:33:42] [class-ss-archive-creation-job.php:177] We're not done with the transfer_files_locally task yet
+[2024-05-13 16:33:42] [class-ss-archive-creation-job.php:132] Current task: transfer_files_locally
+[2024-05-13 16:33:42] [class-ss-archive-creation-job.php:149] Performing task: transfer_files_locally
+[2024-05-13 16:33:42] [class-ss-transfer-files-locally-task.php:77] Total pages: 27; Pages remaining: 0
+[2024-05-13 16:33:42] [class-ss-task.php:44] Status message: [transfer_files_locally] Copied 27 of 27 files
+[2024-05-13 16:33:42] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://thanapun121.github.io/WebPangpuriye/" target="_blank">https://thanapun121.github.io/WebPangpuriye/</a>
+[2024-05-13 16:33:42] [class-ss-archive-creation-job.php:171] We've found our next task: wrapup
+[2024-05-13 16:33:42] [class-ss-archive-creation-job.php:132] Current task: wrapup
+[2024-05-13 16:33:42] [class-ss-archive-creation-job.php:149] Performing task: wrapup
+[2024-05-13 16:33:42] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-05-13 16:33:42] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-05-13 16:33:42] [class-ss-archive-creation-job.php:166] This task is done and there are no more tasks, time to complete the job
+[2024-05-13 16:33:42] [class-ss-archive-creation-job.php:193] Completing the job
+[2024-05-13 16:33:42] [class-ss-archive-creation-job.php:320] Status message: [done] Done! Finished in 00:00:09
